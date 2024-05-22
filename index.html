@@ -1,11 +1,13 @@
+
 <HTML>
 <HEADER><TITLE> Toronto Maple Leafs</TITLE></HEADER>
 <BODY style="background-color:white">
     <title>Toronto Maple Leafs</title>
+
     <style>
         body {
             background-color: white;
-            font: Arial, sans-serif;
+            font-family: Arial, sans-serif;
         }
         header {
             text-align: center;
@@ -13,14 +15,25 @@
             background-color: #0033A0;
             color: white;
         }
-       
-        }
         main {
-            padding: 1px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .content, .widgets {
+            flex: 1;
+            min-width: 300px;
+            margin: 10px;
         }
         img {
-            width: auto;
-            height: auto;  
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .widget {
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -28,11 +41,14 @@
     <header>
         <h1>Toronto Maple Leafs</h1>
     </header>
-            <li><a href="#funfacts">Fun Facts</a></li>
+    <nav>
+        <ul>
             <li><a href="https://www.nhl.com/info/teams/">Teams</a></li>
- 
+            <li><a href="file:///F:/Admin/Documents/fun_facts.html">Fun Facts</a></li>
+        </ul>
+    </nav>
     <main>
-        <section id="teams">
+        <section class="content" id="teams">
             <h2>Toronto Maple Leafs</h2>
             <p>The Toronto Maple Leafs (officially the Toronto Maple Leaf Hockey Club and often referred to as the Leafs) are a professional ice hockey team based in Toronto. The Maple Leafs compete in the National Hockey League (NHL) as a member of the Atlantic Division in the Eastern Conference. The club is owned by Maple Leaf Sports & Entertainment, a company that owns several professional sports teams in the city. The Maple Leafs' broadcasting rights are split between BCE Inc. and Rogers Communications. For the first 14 seasons, the team played its home games at the Mutual Street Arena, before moving to Maple Leaf Gardens in 1931. The Maple Leafs moved to their present home, Scotiabank Arena (originally named Air Canada Centre), in February 1999.</p>
             <p>The club was founded in 1917, operating simply as Toronto and known then as the Toronto Arenas. Under new ownership, the team was renamed the Toronto St. Patricks in 1919. In 1927, the franchise was purchased by Conn Smythe and renamed the Maple Leafs. A member of the "Original Six", the club was one of six NHL teams to have endured the period of League retrenchment during the Great Depression. The club has won 13 Stanley Cup championships, second only to the 24 championships of the Montreal Canadiens. The Maple Leafs history includes two recognized dynasties, from 1947 to 1951 and from 1962 to 1967. Winning their last championship in the 1966–67 season, the Maple Leafs' 57-season drought between championships is the longest drought in league history. The Maple Leafs have developed rivalries with five NHL franchises: the Boston Bruins, Buffalo Sabres, Detroit Red Wings, the Montreal Canadiens, and the Ottawa Senators.</p>
@@ -42,7 +58,19 @@
             <img src="https://www.hhof.com/images_hockeypedia/teamphotos_02_torontomapleleafs.jpg" alt="Toronto Maple Leafs team photo">
             <p>And here was how our team was looking like during the 1950s:</p>
         </section>
+        <section class="widgets">
+            <div class="widget">
+                <h3>Twitter Feed</h3>
+                
+                <a class="twitter-timeline" data-width="400" data-height="600" href="https://twitter.com/MapleLeafs?ref_src=twsrc%5Etfw">Tweets by MapleLeafs</a> 
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <div class="widget">
+                <h3>Latest Video</h3>
+               
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/cSXBtj4cSTg" title="YouTube video player" 
+            </div>
+        </section>
     </main>
 </body>
 </html>
-
