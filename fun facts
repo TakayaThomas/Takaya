@@ -1,0 +1,100 @@
+<HTML>
+<HEADER><TITLE> Toronto Maple Leafs</TITLE></HEADER>
+<BODY style="background-color:white">
+    <title>Toronto Maple Leafs</title>
+    <title>Fun Facts About Toronto Maple Leafs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+         
+        }
+        header {
+            background-color: #0033A0;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #0033A0;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fun Facts About Toronto Maple Leafs</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#funfacts">Fun Facts</a></li>
+           <li><a href="https://www.nhl.com/info/teams/">Teams</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="funfacts">
+            <h2>Fun Facts</h2>
+            <p>The Toronto Maple Leafs, one of the most storied franchises in NHL history, have a rich legacy filled with interesting facts. Here are some fun facts about the team:</p>
+            <ul>
+              The team Toronto Maple Leafs were founded in the year 1917 making them one of the oldest teams in the NHL.</li>
+
+                <li>The Toronto Maple Leafs have won 13 Stanley Cup championships,second most in NHL history.</li>
+
+                <li>The team's original name were the Toronto Arenas, which they  changed to the St. Patricks before finally changing it to the Maple Leafs.</li>
+
+                <li>The Toronto Maple Leafs' mascot is a bear named Carlton, it was named after the street on which the Maple Leaf Gardens was located.</li>
+
+                <li>Toronto Maple Leafs have a fierce rivalry with the Montreal Canadiens, known as the "Battle of Ontario."</li>
+
+                <li>The team is known for its iconic blue and white uniforms which is our home team jersey.</li>
+
+                <li>They moved to their current home, the Scotiabank Arena, in 1999, which was formerly known as the Air Canada Centre.</li>
+
+                <li>The Maple Leafs have retired the use of 13 numbers in honor of 19 players.</li>
+
+                <li>Their longest Stanley Cup drought lasted 57 years, the longest in NHL history.</li>
+
+                <li>The Maple Leafs' logo has gone through several changes, with the current logo being introduced in 2016.</li>
+
+                <li>Toronto Maple Leafs games are broadcasted on TSN and Sportsnet.</li>
+
+                <li>The Maple Leafs have a farm team, the Toronto Marlies, which plays in the American Hockey League (AHL).</li>
+
+                <li>Despite their long championship drought, the Maple Leafs have a large and dedicated fan base.</li>
+
+                <li>The team's fight song is "Go Leafs Go."</li>
+
+                <li>They have a unique goal celebration song called "You Make My Dreams" by Hall & Oates.</li>
+
+                <li>The Maple Leafs were a part of the NHL's "Original Six" teams.</li>
+
+                <li>They have had numerous Hall of Fame players, including legends like Darryl Sittler and Mats Sundin.</li>
+
+                <li>Leafs fans are known for their unwavering loyalty and passion for the team.</li>
+
+                <li>Each year, the team hosts a "Legends Row" ceremony to honor its greatest players with statues outside the Scotiabank Arena.</li>
+            </ul>
+
+
+        </section>
+        <section id="history">
+            <h2>History</h2>
+            <p>The Toronto Maple Leafs have a long and storied history. Founded in 1917, they were one of the NHL's Original Six teams. Over the years, they have built a reputation as one of the most popular and historic teams in the league.</p>
+        </section>
+        <section id="rivalries">
+            <h2>Rivalries</h2>
+            <p>The Maple Leafs have developed intense rivalries with several teams over the years, most notably the Montreal Canadiens and the Ottawa Senators. These rivalries are among the fiercest in the NHL and add to the excitement of the games.</p>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
